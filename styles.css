@@ -1,0 +1,215 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2F1893;
+}
+
+/* Header and navigation styles */
+.nav{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.nav p{
+    color: white;
+}
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+.nav li[type="navst"]{
+    padding-left: 0px;
+    padding-top: 50px;
+    color: white;
+    font-size: 120%;
+    font-weight: 300;
+    font-family: inherit;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: #2F1893;
+    color: white;
+}
+
+/* Card1 styles */
+.card1{
+    position: absolute; 
+    width:427px;
+    height: 496px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.card1 h1 {
+    height: 200px;
+    font-size: 3rem;
+    color: white;
+    font-family: inherit;
+}
+
+.card1 p {
+    height: 200px;
+    font-size: 1.75rem;
+    color:white;
+    font-family: inherit;
+}
+
+.nav button[type="col"],
+.card1 button {
+    background-color: #E93A7D;
+    color: white;
+    border: none;
+    border-radius: 4.5rem;
+    padding: 0.75rem;
+}
+
+/* Card2 styles */
+.form-container {
+  width: 400px;
+  height: 520px;
+  border-radius: 0.25rem;
+  background-color: white;
+  padding: 2rem;
+  color:darkblue;
+  margin-left: 750px;
+  margin-top: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.form {
+  margin-top: 1.5rem;
+}
+
+.input-group {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.input-group label {
+  display: block;
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+}
+
+.input-group input {
+  width: 100%;
+  border-radius: 4rem;
+  border: 0.5px solid rgba(55, 65, 81, 1);
+  outline: 0;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem 1rem;
+  margin-top: 1px;
+  margin-bottom: 25px;
+  color: rgba(243, 244, 246, 1);
+}
+
+.input-group input:focus {
+  border-color: rgba(167, 139, 250);
+}
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175,1);
+  margin: 8px 0 14px 0;
+}
+
+.forgot a,.signup a {
+  color: rgba(243, 244, 246, 1);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot a:hover, .signup a:hover {
+  text-decoration: underline rgba(167, 139, 250, 1);
+}
+
+.sign {
+  display: block;
+  width: 100%;
+  background-color: blue;
+  padding: 0.75rem;
+  text-align: center;
+  padding-top: 15px;
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 1.5em;
+  font-weight: 600;
+}
+
+.signtw {
+    display: block;
+    width: 100%;
+    background-color: rgb(0, 225, 255);
+    padding: 0.75rem;
+    text-align: center;
+    padding-top: 5px;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1.5em;
+    font-weight: 600;
+    margin-top: 25px;
+  }
+
+.social-message {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.signtw2{
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.line {
+  height: 1px;
+  flex: 1 1 0%;
+  background-color: rgba(55, 65, 81, 1);
+}
+
+.social-message .message {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgba(156, 163, 175, 1);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons .icon {
+  border-radius: 0.125rem;
+  padding: 0.75rem;
+  border: none;
+  background-color: transparent;
+  margin-left: 8px;
+}
+
+.signup {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color:#25DAC5;
+}
