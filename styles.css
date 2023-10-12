@@ -113,7 +113,7 @@ body {
   padding: 1rem 1rem;
   margin-top: 1px;
   margin-bottom: 25px;
-  color: rgba(243, 244, 246, 1);
+  color: black;
 }
 
 .input-group input:focus {
